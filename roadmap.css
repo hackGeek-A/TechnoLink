@@ -1,0 +1,19 @@
+body {
+    background-image: url(roadmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+#box {
+    margin-top: 5%;
+    height: 40vw;
+    width: 35vw;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
