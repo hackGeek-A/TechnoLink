@@ -9,8 +9,28 @@
 </head>
 
 <body>
-    <div id="box"></div>
+    <div id="box">
+        <div id="content">
+            <form>
+                <div id="name">Enter your full name (optional) </div>
+                <input type="text" class="input" id="full_name">
 
+                <div id="field">Choose the field of your interest</div>
+                <input type="text" class="input" id="field_choice">
+
+                <div id="specialty">Choose a specialty</div>
+                <input type="text" class="input" id="specialty_choice">
+
+                <div id="course-length">Enter the course length </div>
+                <input type="text" class="input" id="course_length" onclick=getUserData()>
+            </form>
+        </div>
+        <div>
+            <input type="submit" value="Next" id="submit">
+        </div>
+    </div>
+
+    <script src="roadmap.js"></script>
 </body>
 
 </html>
